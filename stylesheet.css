@@ -28,29 +28,42 @@ header {
 }
 
 .top-wrapper {
-  padding: 180px 0 100px 0;
+  padding: 100px 0 10px 0;
   background-image: url("images/Food1.jpg");
+  opacity: 0.8;
   background-size: cover;
-  color: white;
+  color: blue;
   text-align: center;
 }
 
 .top-wrapper h1 {
-  opacity: 0.9;
-  font-size: 45px;
+  font-size: 60px;
   letter-spacing: 5px;
   margin-bottom: 10px;
 }
 
-.logo {
-  width: 124px;
-  margin-top: 20px;
+.menu-right a {
+  padding: 0 25px;
+  color: white;
+  font-size: 30px;
+}
+
+.menu-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .header-left {
   float: left;
-  margin-right: -25px;
+  /*margin-right: -25px;*/
   color: white;
+  font-weight: bold;
+  text-align: left;
+}
+
+.header-left h2 {
+  width: 400px;
+  margin-top: 5px;
+  margin-left: 100px;
 }
 
 .header-right {
@@ -59,12 +72,13 @@ header {
 }
 
 .header-right a {
-  line-height: 65px;
+  line-height: 40px;
   padding: 0 25px;
   color: white;
   display: block;
   float: left;
   transition: all 0.5s;
+  font-size: 30px;
 }
 
 .header-right a:hover {
