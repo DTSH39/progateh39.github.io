@@ -93,18 +93,74 @@ header {
   display: none;
 }
 
-.lesson-wrapper {
-  padding-bottom: 80px;
-  padding-left: 5%;
-  padding-right: 5%;
-  background-color: #f7f7f7;
+.menuchoice {
+  padding: 20px 100px;
+  margin: 0 auto;
   text-align: center;
+  color: black;
 }
+
+.menuchoice h3 {
+  padding-bottom: 20px;
+}
+
+@keyframes slideshow {
+	10% {left: 0;}
+	20% {left: 0;}
+	30% {left: -100%;}
+	40% {left: -100%;}
+	50% {left: -200%;}
+	60% {left: -200%;}
+	70% {left: -300%;}
+	80% {left: -300%;}
+	90% {left: -400%;}
+	100% {left: -400%}
+}
+
+#slider {
+  overflow:hidden;
+  width:100%;
+  margin:5px auto; 
+  border: 5px solid transparent;
+  border-radius: 10px;
+}
+
+#slider figure img {
+  width:20%;
+  float:left;
+}
+
+#slider figure {
+  position:relative;
+  width:500%;
+  margin:0;
+  left:0;
+  text-align:left;
+  animation:10s slideshow infinite
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
 
 .message-wrapper {
   border-bottom: 1px solid #eee;
   padding-bottom: 80px;
   text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
 }
 
 footer {
