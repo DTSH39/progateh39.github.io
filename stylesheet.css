@@ -171,4 +171,16 @@ header {
 footer {
   padding-top: 30px;
   padding-bottom: 20px;
+	background-color: rgba(34, 49, 52, 0.9);
+	height: 20px;
+	width: 100%;
+}
+
+.footer-right {
+  float: right;
+  
+}
+
+.footer-left {
+  float: left;
 }
