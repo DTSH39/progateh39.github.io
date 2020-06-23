@@ -20,18 +20,12 @@
     width: 100%;
   }
   
-  header {
-    height: 80px;
-  }
-  
   .header-left h2 {
     float: left;
-    font-size: 10px;
   }
   
   .header-right a {
     float: right;
-    font-size: 10px;
   }
   
   footer {
