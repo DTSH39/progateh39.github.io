@@ -20,11 +20,11 @@
     width: 100%;
   }
   
-  .header-left {
+  .header-left h2 {
     float: left;
   }
   
-  .header-right {
+  .header-right a {
     float: right;  
   }
   
