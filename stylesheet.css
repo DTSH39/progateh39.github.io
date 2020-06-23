@@ -155,12 +155,17 @@ header {
   background-color: #5dca88;
   cursor: pointer;
   box-shadow: 0 7px #1a7940;
+	opacity: 0.8;
 }
 
 .message:active {
   position: relative;
   top: 7px;
   box-shadow: none;
+}
+
+.message:hover{
+	opacity: 1;
 }
 
 footer {
