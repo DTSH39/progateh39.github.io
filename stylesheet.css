@@ -174,14 +174,14 @@ footer {
   background-color: rgba(34, 49, 52, 0.9);
   height: 120px;
   width: 100%;
-  color: white;
 }
 
 .footer-right {
   float: right;
-  
+  color: white;
 }
 
 .footer-left {
   float: left;
+  color: white;
 }
