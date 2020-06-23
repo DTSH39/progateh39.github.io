@@ -178,10 +178,16 @@ footer {
 
 .footer-right {
   float: right;
-  color: white;
 }
 
 .footer-left {
   float: left;
+}
+
+footer p {
+  color: white;
+}
+
+footer h3 {
   color: white;
 }
