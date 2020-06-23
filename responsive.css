@@ -22,10 +22,12 @@
   
   .header-left h2 {
     float: left;
+    font-size: 20px;
   }
   
   .header-right a {
-    float: right;  
+    float: right;
+    font-size: 20px;
   }
   
   footer {
