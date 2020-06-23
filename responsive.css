@@ -20,6 +20,14 @@
     width: 100%;
   }
   
+  .header-left {
+    float: left;
+  }
+  
+  .header-right {
+    float: right;  
+  }
+  
   footer {
     text-align: center;
   }
